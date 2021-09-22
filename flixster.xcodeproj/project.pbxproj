@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		9514067026F101BD00282EA2 /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514066F26F101BD00282EA2 /* flixsterTests.swift */; };
 		9514067B26F101BD00282EA2 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514067A26F101BD00282EA2 /* flixsterUITests.swift */; };
 		9514068926F1A0B600282EA2 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514068826F1A0B600282EA2 /* MoviesViewController.swift */; };
+		951E105C26FACA430027A35F /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E105B26FACA430027A35F /* MovieDetailsViewController.swift */; };
 		9538E35026F86A4000D0DC3B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538E34F26F86A4000D0DC3B /* MovieCell.swift */; };
 		B4E3A12A9ACECC0A118B568A /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE11859A3934C6ECECF39611 /* Pods_flixster_flixsterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		9514067A26F101BD00282EA2 /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		9514067C26F101BD00282EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9514068826F1A0B600282EA2 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		951E105B26FACA430027A35F /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		9538E34F26F86A4000D0DC3B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		C3FC4F3DF41B0485289E265F /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE11859A3934C6ECECF39611 /* Pods_flixster_flixsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster_flixsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 				9514065A26F101BB00282EA2 /* SceneDelegate.swift */,
 				9514065C26F101BB00282EA2 /* ViewController.swift */,
 				9514065E26F101BB00282EA2 /* Main.storyboard */,
+				951E105B26FACA430027A35F /* MovieDetailsViewController.swift */,
 				9538E34F26F86A4000D0DC3B /* MovieCell.swift */,
 				9514068826F1A0B600282EA2 /* MoviesViewController.swift */,
 				9514066126F101BD00282EA2 /* Assets.xcassets */,
@@ -171,7 +174,6 @@
 				2A18449AD5D06DA94BD4CDCB /* Pods-flixsterTests.debug.xcconfig */,
 				742813905266938E0CDA0E1B /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,6 +417,7 @@
 			files = (
 				9514065D26F101BB00282EA2 /* ViewController.swift in Sources */,
 				9514065926F101BB00282EA2 /* AppDelegate.swift in Sources */,
+				951E105C26FACA430027A35F /* MovieDetailsViewController.swift in Sources */,
 				9514065B26F101BB00282EA2 /* SceneDelegate.swift in Sources */,
 				9538E35026F86A4000D0DC3B /* MovieCell.swift in Sources */,
 				9514068926F1A0B600282EA2 /* MoviesViewController.swift in Sources */,
@@ -604,7 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfhdstudios.tipem.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -624,7 +627,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfhdstudios.tipem.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
